@@ -26,7 +26,7 @@ func main() {
 		if err := copyFile(sourceFilePath, destFilePath); err != nil {
 			fmt.Printf("Error copying file %s: %s\n", fileName, err)
 		} else {
-			fmt.Printf("Copied file %s to %s\n", sourceFilePath, destFilePath)
+			// fmt.Printf("Copied file %s to %s\n", sourceFilePath, destFilePath)
 		}
 	}
 
